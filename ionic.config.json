@@ -1,0 +1,7 @@
+{
+  "name": "duroad",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
