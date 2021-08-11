@@ -7,7 +7,7 @@ const Course: React.FC<ContainerProps> = ({name, sub}) => {
 	const items = sub.map((degree) => 
 	<li><IonCardSubtitle className="danger">{degree}</IonCardSubtitle></li>);
   return (
-			<IonCard>
+			<IonCard className="course">
 				<IonCardContent>
 					<IonCardHeader>
 						<IonCardTitle className="danger">{name}</IonCardTitle>

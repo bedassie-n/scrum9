@@ -2,6 +2,7 @@ import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonList, IonItem,
 	, IonButtons, IonBackButton, IonListHeader, IonSearchbar } from '@ionic/react';
 	import Course from '../components/Course';
 	import './Programmes.css';
+	// import { useEffect } from 'react';
 	
 	const Programmes: React.FC = () => {
 		return (
@@ -45,7 +46,6 @@ import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonList, IonItem,
 							<Course name="Course Listing" sub={[]} />
 						</IonItem>
 					</IonList>
-
 				</IonContent>
 			</IonPage>
 		);

@@ -1,5 +1,5 @@
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
-import ExploreContainer from '../components/ExploreContainer';
+import { IonContent, IonHeader, IonIcon, IonItem, IonLabel, IonList, IonPage, IonTitle, IonToolbar } from '@ionic/react';
+import { accessibilityOutline, bookOutline } from 'ionicons/icons';
 import './Home.css';
 
 const Home: React.FC = () => {
@@ -16,7 +16,16 @@ const Home: React.FC = () => {
             <IonTitle size="large">Home</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <ExploreContainer />
+        <IonList>
+          <IonItem routerLink="/about">
+            <IonIcon icon={ accessibilityOutline } />
+            <IonLabel>About the Developer</IonLabel>
+          </IonItem>
+          <IonItem routerLink="/programmes">
+            <IonIcon icon={ bookOutline } />
+            <IonLabel>Programmes Offered</IonLabel>
+          </IonItem>
+        </IonList>
       </IonContent>
     </IonPage>
   );
