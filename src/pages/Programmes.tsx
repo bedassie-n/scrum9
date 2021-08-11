@@ -21,7 +21,7 @@ import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonList, IonItem,
 						</IonToolbar>
 					</IonHeader>
 					{/*-- List of Programmes --*/}
-					<IonListHeader lines="full">
+					<IonListHeader lines="none">
 						<IonLabel color="dark">Undergraduate Programs Offered by The Department of Computing.</IonLabel>
 					</IonListHeader>
 					<IonList>
