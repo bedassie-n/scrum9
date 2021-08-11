@@ -1,7 +1,7 @@
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonCard, IonImg, IonThumbnail
 , IonButtons, IonBackButton, IonCardHeader, IonCardContent, IonCardSubtitle, IonCardTitle } from '@ionic/react';
 import photo from '../img/profile_pic.jpeg';
-// import './About.css'
+import './About.css'
 
 const About: React.FC = () => {
   return (
